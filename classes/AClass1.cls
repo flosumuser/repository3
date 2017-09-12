@@ -12,5 +12,10 @@ public class AClass1 {
     // updated
     Integer i19 = 1000;
     // add an  extra line
+    // add a block
+    public String getValue(){
+            return 'test';
+    }
+    
     
 }
