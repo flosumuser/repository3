@@ -11,4 +11,5 @@ public class T40ApexClass {
     longVar0 += 2;
     longVar0 += 2;
   return longVar0;
+  // line    
 }}
