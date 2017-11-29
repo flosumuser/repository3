@@ -9,7 +9,7 @@ public class AClass1 {
     // comment 3
     // comment with problem symbols '@3$~56__+= '   'and
     Double f1 = 0.1;
-    // updated
+    // updated 1
     Integer i19 = 1000;
     // add an  extra line
     // add a block
