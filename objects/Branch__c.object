@@ -73,7 +73,7 @@
         <label>Branch Name</label>
         <length>255</length>
         <required>false</required>
-        <trackHistory>true</trackHistory>
+        <trackHistory>false</trackHistory>
         <type>Text</type>
         <unique>false</unique>
     </fields>
@@ -115,7 +115,7 @@
         <label>Test Two</label>
         <length>255</length>
         <required>false</required>
-        <trackHistory>true</trackHistory>
+        <trackHistory>false</trackHistory>
         <type>Text</type>
         <unique>false</unique>
     </fields>
@@ -124,15 +124,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <externalId>false</externalId>
         <label>User</label>
-        <lookupFilter>
-            <active>true</active>
-            <filterItems>
-                <field>User.Id</field>
-                <operation>notEqual</operation>
-                <value></value>
-            </filterItems>
-            <isOptional>false</isOptional>
-        </lookupFilter>
         <referenceTo>User</referenceTo>
         <relationshipName>Branches</relationshipName>
         <required>false</required>

@@ -6,15 +6,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <externalId>false</externalId>
         <label>User</label>
-        <lookupFilter>
-            <active>true</active>
-            <filterItems>
-                <field>User.Id</field>
-                <operation>notEqual</operation>
-                <value/>
-            </filterItems>
-            <isOptional>false</isOptional>
-        </lookupFilter>
         <referenceTo>User</referenceTo>
         <relationshipName>Branches</relationshipName>
         <required>false</required>
